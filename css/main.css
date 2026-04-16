@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    line-height: 1.3;
+}
+
+header {
+    display: flex;
+    max-width: 1200px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px; 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#limited .btn {
+  margin-top: auto;
+  display: flex;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  text-decoration: none;
+  align-self: flex-start;
+}
+
+#limited .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
+
+
+
