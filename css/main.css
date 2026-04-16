@@ -12,6 +12,15 @@ header {
     max-width: 1200px;
 }
 
+header .wrapper {
+  display: flex;
+  max-width: 940px; 
+  justify-content: space-between;
+  align-items: center;
+  margin:  auto;
+  padding: 1em;
+}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -19,10 +28,9 @@ nav ul {
 }
 
 nav a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
-
 
 #limited .btn {
   margin-top: auto;
@@ -41,8 +49,41 @@ nav a {
 }
 
 
+#limited .wrapper{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4em;
+  padding: 1em 3em 3em ;
+}
 
+#dough .wrapper{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4em;
+  padding: 1em 3em 3em ;
+}
 
+#people .wrapper{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4em;
+  padding: 1em 3em 3em ;
+}
 
+#tryit .wrapper{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4em;
+  padding: 1em 3em 3em ;
+}
 
-
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
